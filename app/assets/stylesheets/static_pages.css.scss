@@ -5,7 +5,7 @@
   border-radius: 5px;
   margin: 10px;
   display: inline-block;
-
+  float: left;
   &:first-child{
     margin-left: 0;
   }
@@ -22,4 +22,17 @@
   width: 400px;
   border: 1px solid #333;
   overflow: hidden;
+  clear:both;
+}
+.pickers{
+  width: 100%;
+}
+#palette {
+  width: 100%;
+}
+#palette > div {
+
+  width: 45%;
+  float: left;
+  text-align: center
 }
